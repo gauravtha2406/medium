@@ -1,0 +1,141 @@
+
+/* css reset */
+*{
+   padding:0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+.medium-heading{
+color: #ffff !important;
+font-size: 25px;
+font-weight: bold;
+margin: 0 26px;
+cursor: pointer;
+line-height: 9px;
+
+}
+
+
+.medium-logo{
+width: 25px;
+height:35px;
+border-radius: 50px;
+
+}
+.medium-nav{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.medium-nav img{
+    position :relative;
+     right: -17px;     
+}
+
+.medium-search{
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+}
+
+.breadcrumb
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:0;
+}
+.breadcrumb li{
+margin: 0 14px!important;
+display: inline;
+}
+
+.breadcrumb .social-link{
+display: flex;
+margin: 0 12px;
+
+}
+.breadcrumb .social-link a{
+    margin: 0 8px;
+}
+
+
+
+/* header Section */
+
+
+.header-section
+{
+margin:0px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+ height: 50vh; 
+position: relative;
+}
+.header-section:before{
+content: "";
+background:linear-gradient( #8e44ad,#50514F 100%);
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0%;
+bottom: 0%;
+left:0%;
+right: 0%;
+z-index:-1;
+
+}
+
+.first-heading h2{
+color: #ffffff;
+background: transparent;
+font-weight: bolder;
+text-transform: capitalize;
+line-height: 1.1rem;
+font-size:39px;
+text-shadow: 0 2px 2px black;
+}
+
+.first-heading p{
+    text-align: center;
+    margin-top:11px;
+    color: rgba(0, 0, 0, 7);
+     font-size:18px;
+     line-height: 24px;
+
+}
+.heading-buttons a{
+    border:1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    margin:0px 5px;
+    padding: 12px 35px;
+    outline:none;
+    font-weight: 380;
+    text-align: center;
+
+}
+
+.heading-buttons a:hover{
+
+    color: black;
+    text-decoration: none;
+    background: #fff;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.username
+{
+margin-left: 3rem !important;
+color:red !important;
+
+}
